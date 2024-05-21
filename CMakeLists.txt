@@ -11,7 +11,7 @@ add_executable(${PROJECT_NAME} main.cpp)
 
 target_link_libraries(${PROJECT_NAME} PahoMqttCpp::paho-mqttpp3)
 install(TARGETS random_mqtt_sender
-        RUNTIME          
+        RUNTIME
           COMPONENT Runtime
           DESTINATION ${CMAKE_INSTALL_BINDIR}
         LIBRARY
